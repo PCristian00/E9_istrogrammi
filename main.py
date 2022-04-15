@@ -3,5 +3,8 @@ def istogrammi(lista):
         print("*" * num)
 
 
-lista = (1, 4, 5, 8)
-istogrammi(lista)
+print("Inserire numeri separati da spazi")
+print("INVIO per confermare")
+a = [int(x) for x in input().split()]
+
+istogrammi(a)
